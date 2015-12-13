@@ -2,89 +2,88 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSCI E-20 Assignment 3</title>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 	<link href="css/assign4.css" media="all" rel="Stylesheet" type="text/css" /> 
 </head>
+
 <body>
 	<section data-role="page" id="home">
-		<div id="wrapper">
-			<header>
-				<h1>HTML5 Flashcards</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html" target="_self">Flashcard Input Form</a></li>
-					<li><a href="assign3_flashcard.html" target="_blank">Flashcard Example 1</a></li>
-					<li><a href="assign3_test.html" target="_blank">Flashcard Test</a></li>
-				</ul>
-			</nav>
-			</header>
-			<form action="assign2_flashcard.html" method="POST">
-				<fieldset>
-					<legend>Search Flashcards</legend>
-					<label for="searchflashcards">Search existing flashcards for word:</label>
-					<input type="search" id="searchflashcards" name="searchflashcards">
-			    </fieldset>
-			    <fieldset id="flashdata">
-			    	<legend>Flashcard Data</legend>
-			    	<label for="item">Word or phrase</label>
-			    	<input type="text" id="item" autofocus name="item" placeholder="Input Types">
+		<header data-role="header">
+			<h1>HTML5 Flashcards</h1>
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" class="ui-btn-active ui-state-persist">Flashcard Input Form</a></li>
+				<li><a href="#flashcard">Flashcard Example</a></li>
+				<li><a href="#test">Flashcard Test</a></li>
+			</ul>
+		</nav>
+		</header>
+		<form action="assign2_flashcard.html" method="POST">
+			<fieldset>
+				<legend>Search Flashcards</legend>
+				<label for="searchflashcards">Search existing flashcards for word:</label>
+				<input type="search" id="searchflashcards" name="searchflashcards">
+		    </fieldset>
+		    <fieldset id="flashdata">
+		    	<legend>Flashcard Data</legend>
+		    	<label for="item">Word or phrase</label>
+		    	<input type="text" id="item" name="item" placeholder="Input Types">
+		    	
+		    	<label for="definition">Personal written definition</label>
+		    	<input type="text" id="definition" name="definition" placeholder="Describes specified type of input in an HTML form">
+		    	
+		    	<label for="relation">Personal relation or use of said term or action</label>
+		    	<input type="text" id="relation" name="relation" placeholder="In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number">
+		    	
+		    	<label for="itemurl">URL of page describing the term and its use definition</label>
+		    	<input type="url" id="itemurl" name="itemurl" placeholder="http://www.w3schools.com/html/html_form_input_types.asp">
+		    </fieldset>
+		    <fieldset>
+		    	<legend>School and class data (for later reference)</legend>
+		    	<label for="school">School name (e.g. Harvard Extension School)</label>
+		    	<select id="school">
+		    		<option checked>Select a school from the list:</option>
+		    		<option value="HES">Harvard Extension School</option>
+		    		<option value="SEAS">School for Engineering and Applied Sciences</option>
+		    		<option value="GSE">Graduate Schol of Education</option>
+			    </select>
+			    	<img src="http://lorempixel.com/200/200/cats/" id="schimg" alt="Image of School crest">
 			    	
-			    	<label for="definition">Personal written definition</label>
-			    	<input type="text" id="definition" name="definition" placeholder="Describes specified type of input in an HTML form">
-			    	
-			    	<label for="relation">Personal relation or use of said term or action</label>
-			    	<input type="text" id="relation" name="relation" placeholder="In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number">
-			    	
-			    	<label for="itemurl">URL of page describing the term and its use definition</label>
-			    	<input type="url" id="itemurl" name="itemurl" placeholder="http://www.w3schools.com/html/html_form_input_types.asp">
-			    </fieldset>
-			    <fieldset>
-			    	<legend>School and class data (for later reference)</legend>
-			    	<label for="school">School name (e.g. Harvard Extension School)</label>
-			    	<select id="school">
-			    		<option checked>Select a school from the list:</option>
-			    		<option value="HES">Harvard Extension School</option>
-			    		<option value="SEAS">School for Engineering and Applied Sciences</option>
-			    		<option value="GSE">Graduate Schol of Education</option>
-				    </select>
-				    	<img src="http://lorempixel.com/200/200/cats/" id="schimg" alt="Image of School crest">
-				    	
-				    <label for="department">Class department (eg CSCI)</label>
-			    	<input type="text" id="department" autocomplete="on" name="department">
-			    	
-			    	<label for="area">Class Area (eg. E)</label>
-			    	<input type="text" id="area" autocomplete="on" name="area">
-			    	
-			    	<label for="classnumber">Class number (e.g. 20)</label>
-			    	<input type="text" id="classnumber" name="classnumber">
-			    	
-			    	<label for="semester">Semester</label>
-			    	<input type="text" id="semester" autocomplete="on" name="semester">
-			    	
-			    	<label for="year">Year</label>
-			    	<input type="number" id="year" name="year" max="9999" min="1900" value="2015">
-			    </fieldset>
-			    <fieldset>
-			    	<legend>Submit</legend>
-			    	<label for="submit">Submit</label>
-			    	<input type="submit" id="submit" name="submit" value="Submit Flashcard">
-			    </fieldset>
-			</form>
-		</div>
+			    <label for="department">Class department (eg CSCI)</label>
+		    	<input type="text" id="department" autocomplete="on" name="department">
+		    	
+		    	<label for="area">Class Area (eg. E)</label>
+		    	<input type="text" id="area" autocomplete="on" name="area">
+		    	
+		    	<label for="classnumber">Class number (e.g. 20)</label>
+		    	<input type="text" id="classnumber" name="classnumber">
+		    	
+		    	<label for="semester">Semester</label>
+		    	<input type="text" id="semester" autocomplete="on" name="semester">
+		    	
+		    	<label for="year">Year</label>
+		    	<input type="number" id="year" name="year" max="9999" min="1900" value="2015">
+		    </fieldset>
+		    <fieldset>
+		    	<legend>Submit</legend>
+		    	<label for="submit">Submit</label>
+		    	<input type="submit" id="submit" name="submit" value="Submit Flashcard">
+		    </fieldset>
+		</form>
 	</section>
 	<section data-role="page" id="test">
-		<div id="wrapper">
-			<header>
-				<h1>HTML5 Flashcards Test</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html" target="_self">Flashcard Input Form</a></li>
-					<li><a href="assign3_flashcard.html" target="_blank">Flashcard Example 1</a></li>
-					<li><a href="assign3_test.html" target="_blank">Flashcard Test</a></li>
-				</ul>
-			</nav>
-			</header>
+		<header data-role="header">
+			<h1>HTML5 Flashcards Test</h1>
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home">Flashcard Input Form</a></li>
+				<li><a href="#flashcard">Flashcard Example</a></li>
+				<li><a href="#test" class="ui-btn-active ui-state-persist">Flashcard Test</a></li>
+			</ul>
+		</nav>
+		</header>
 	    	<h1>Flashcard Data</h1>
 				<div class="boxwrapper">
 					<div id="leftbox" class="box">
@@ -110,18 +109,15 @@
 				<div>
 			    	<p><a id="itemurl" href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">http://www.w3schools.com/html/html_form_input_types.asp</a></p>
 				</div>
-
-		</div>
 	</section>
 	<section data-role="page" id="flashcard">
-		<div id="wrapper">
-		<header>
+		<header data-role="header">
 			<h1>HTML5 Flashcards</h1>
-		<nav>
+		<nav data-role="navbar">
 			<ul>
-				<li><a href="index.html" target="_self">Flashcard Input Form</a></li>
-				<li><a href="assign3_flashcard.html" target="_blank">Flashcard Example 1</a></li>
-				<li><a href="assign3_test.html" target="_blank">Flashcard Test</a></li>
+				<li><a href="#home">Flashcard Input Form</a></li>
+				<li><a href="#flashcard" class="ui-btn-active ui-state-persist">Flashcard Example</a></li>
+				<li><a href="#test">Flashcard Test</a></li>
 			</ul>
 		</nav>
 		</header>
@@ -145,8 +141,6 @@
 			<div>
 		    	<p><a id="itemurl" href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">http://www.w3schools.com/html/html_form_input_types.asp</a></p>
 			</div>
-
-		</div>
 	</section>
 	<!-- javascript -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

@@ -6,7 +6,7 @@ Create a 2-3 page website using jQuery Mobile. Use the jQuery Mobile definition 
 
 > Use the grid system and make something responsive with custom code (not the built-in breakpoint). Use at least one breakpoint, as defined in a media query. (You may code more if you wish.) This must be applied to at least one of the pages on your site.
 
-* [] Include at least one button or icon (or both).
+* [X] Include at least one button or icon (or both).
 
 * [] From the jQuery Mobile demo page (http://demos.jquerymobile.com/1.4.5/), make use of at least 2 items that end in “widget”. Example: listview widget, navbar widget, popup widget, etc. Not all of these were covered in class. You should be able to read the docs and implement these.
 

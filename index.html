@@ -40,17 +40,18 @@
 		    	<label for="itemurl">URL of page describing the term and its use definition</label>
 		    	<input type="url" id="itemurl" name="itemurl" placeholder="http://www.w3schools.com/html/html_form_input_types.asp">
 		    </fieldset>
-		    <fieldset>
-		    	<legend>School and class data (for later reference)</legend>
-		    	<label for="school">School name (e.g. Harvard Extension School)</label>
-		    	<select id="school">
-		    		<option checked>Select a school from the list:</option>
-		    		<option value="HES">Harvard Extension School</option>
-		    		<option value="SEAS">School for Engineering and Applied Sciences</option>
-		    		<option value="GSE">Graduate Schol of Education</option>
-			    </select>
-			    	<img src="http://lorempixel.com/200/200/cats/" id="schimg" alt="Image of School crest">
-			    	
+		    <form>
+		    	<div class="ui-field-contain">
+			    	<legend>School and class data (for later reference)</legend>
+			    	<label for="school">School name (e.g. Harvard Extension School)</label>
+			    	<select name="school" id="school">
+			    		<option checked>Select a school from the list:</option>
+			    		<option value="HES">Harvard Extension School</option>
+			    		<option value="SEAS">School for Engineering and Applied Sciences</option>
+			    		<option value="GSE">Graduate Schol of Education</option>
+				    </select>
+				    	<img src="http://lorempixel.com/200/200/cats/" id="schimg" alt="Image of School crest">
+			    </div>	
 			    <label for="department">Class department (eg CSCI)</label>
 		    	<input type="text" id="department" autocomplete="on" name="department">
 		    	
@@ -65,7 +66,7 @@
 		    	
 		    	<label for="year">Year</label>
 		    	<input type="number" id="year" name="year" max="9999" min="1900" value="2015">
-		    </fieldset>
+		    </form>
 		    <fieldset>
 		    	<legend>Submit</legend>
 		    	<label for="submit">Submit</label>

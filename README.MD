@@ -37,3 +37,17 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 4. FOR EACH INTERACTION/WIDGET/EFFECT: you will create something new, not demonstrated on the demo page. I want you to do what I did in the video. Using the tooltip, I combined "custom animation" with "track the mouse". It looked ugly, but it was not code that I copied and pasted in whole from the website either. I am looking for a demonstration of understanding that you can read the documentation and write good quality jQuery to form your own interactions/widgets/effects on your site. You should combine at least two aspects in each example. You are welcome to combine more.
 
 > NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
+
+•My week 12-13 jQuery Mobile assignment is located at this/these URL(s): ____
+◦Grid system is located on this/these page(s): ____
+◦Button and/or icon is located here: ___
+◦My two widgets are ___ and ___ and they are located on these pages: ___
+◦My custom theme is applied on this page ___ line number ___ 
+◦The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____
+◦The jQuery Mobile events I used on my site include: ____ They are located here: ____
+•My week 14 jQuery UI assignment is located at this/these URL(s): ____
+• ◦My custom theme is applied on this page ___ line number(s) ___ 
+◦My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+◦My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!) 
+◦My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+

@@ -38,9 +38,9 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 
 > NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
 
-•My week 12-13 jQuery Mobile assignment is located at this/these URL(s): ____
+•My week 12-13 jQuery Mobile assignment is located at this/these URL(s): assign3.arangilmorephotography.com
 ◦Grid system is located on this/these page(s): ____
-◦Button and/or icon is located here: ___
+◦Button and/or icon is located here: #home
 ◦My two widgets are ___ and ___ and they are located on these pages: ___
 ◦My custom theme is applied on this page ___ line number ___ 
 ◦The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____

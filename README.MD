@@ -1,30 +1,39 @@
-# CSCI_E20_assignment3
-Assignment #3 for CSCI E-20, HES Fall 2015
+# Part 1: jQuery Mobile (67% of grade)
 
-Part 1: Basic jQuery requirements (75 points):
+Create a 2-3 page website using jQuery Mobile. Use the jQuery Mobile definition of "page" for the page count, not the number of HTML documents.
 
-[X] Create all of the jQuery/JavaScript below in a single, external file, linked to your website as demonstrated in lecture.
-[X] Build a form for your website with at least two jQuery-driven interactive elements. The form does not need to submit.
-[X] Add at least one click effect to your site. When clicked, at least two actions should occur. This click effect cannot happen on the form page but may happen on any other page.
-[X] Add at least one hover effect to your site. When the element is hovered over, at least two actions should occur. The page should restore itself to its previous look/behavior when the mouse rolls off the element. This hover effect cannot happen on the form page but may happen on any other page. You may have more than one click or hover event for your pages. You may have additional click and/or hover events on your form. But at least one click and at least one hover event must occur on a page that is not your form.
-[X] Add at least one effect that is tied to an if/else choice. You may combine this with any of the other items here on the page. For example, the if/else occurs in your form with one of the two interactive elements required for the form.
-[X] Add at least one effect that requires filtering the results (odd/even, first/last, etc.). You may combine this with any of the other items here on the page. For example, the filtering occurs in your click effect along with the two actions.
-[X] Add two more effects of your choice to the page. These can occur when the page loads, via click, via hover, or via one of the other events in jQuery.
-[] HTML and CSS should pass validation as much as possible. This will also keep your jQuery executing correctly.
+>Create the site using jQuery Mobile pages or dialogs.  (Hint: this means there will be one single HTML page, but the navigation will make it seem like 2-3 pages.)
 
-Part 2: jCanvas requirements (25 points):
+> Use the grid system and make something responsive with custom code (not the built-in breakpoint). Use at least one breakpoint, as defined in a media query. (You may code more if you wish.) This must be applied to at least one of the pages on your site.
 
-The below requirements are specific to this portion of the assignment and cannot be combined with Part 1 requirements. These elements can co-exist on the page, but don’t count requirements from Part 1 in Part 2.
+* [] Include at least one button or icon (or both).
 
-Example: do not count the button requirement below as an example of a click behavior from part 1.
-Acceptable: Your canvas element is on one of your web pages that ALSO displays some of the part 1 requirements.
-You may include all of your code for this portion of the assignment in the SAME external jQuery/JavaScript file as part 1. You may also make a separate jQuery/JavaScript file for part 2 if you wish. Either way is fine.
-Please do not simply follow along with the lecture and turn this code in as your own. I have provided all code for you with the lectures, so by doing this, you have not demonstrated mastery of anything. For example, you turn in a meme generator with different photos – this would not demonstrate mastery of the week’s lecture. Please come up with something new for canvas.
+* [] From the jQuery Mobile demo page (http://demos.jquerymobile.com/1.4.5/), make use of at least 2 items that end in “widget”. Example: listview widget, navbar widget, popup widget, etc. Not all of these were covered in class. You should be able to read the docs and implement these.
 
-Create a page that makes use of the canvas tag. You should be working with jQuery and jCanvas as part of this process:
+* [] Create a custom theme for your site using ThemeRoller and make use of it in your site. (You can apply the theme to the whole page or a few elements on your page – your pick.) You should have at least one main theme (i.e. a "c" theme), but if you want to add additional styling elements to more themes (like a "d" or "e" theme), you are welcome to do so.
 
-[] A button that, when clicked, clears the entire canvas or part of the canvas.
-[] At least two different elements drawn on the canvas when a button is clicked. For example, circles and rectangles are drawn on the canvas together when the button is clicked.
-[] Demonstrate chaining together jCanvas methods. For example, in the lecture, three circles were drawn to the page via chaining. There was a form element where we assigned the value of the element to a variable and converted the input to all uppercase letters via chaining.
-[] As shown in the lecture, create a form element on the page that accepts some kind of user input. Bring that input into jQuery/jCanvas and have the canvas react to the user input. For example, in the lecture, the canvas displayed the text that that user entered. The background photo changed as the select dropdown option changed.
-You may combine these Part 2 requirements as you wish within Part 2. For example, points 2-4 were all executed when the meme generator button was clicked. Do not combine these requirements with Part 1 requirements.
+* [] Create a form for your site that contains at least 4 distinct field types. (Example: a group of radio buttons, a text field, a select list, etc.) The form does not have to submit. Use proper HTML5 coding and field types for creating the form, as covered in previous lectures. For at least two of the field types, include a jQuery Mobile modification, as demonstrated in the lecture (horizontal display, mini version, etc) or some other modification you find in the documentation.
+
+* [] Apply at least two of the jQuery Mobile touch events to your page(s) to make something happen. jQuery Mobile events are listed at http://api.jquerymobile.com/category/events/ (Links to an external site.) Some were covered in lecture, and you may use these, or you may use other events listed in the docs.
+
+# Part 2: jQuery UI (33% of grade) -- added November 30
+
+Create a separate document or documents using jQuery UI and demonstrating the requirements below. This can be part of your jQuery Mobile site, or it can stand alone as a separate URL.
+
+> You may combine jQuery Mobile and jQuery UI on the same page. However, as noted in the lecture, this may be buggy, so it is recommended that you have a separate jQuery UI document(s) demonstrating the below features.
+
+> You do not have to create a custom jQuery UI download. You may use the default with all of the options.
+
+* Create a custom jQuery UI ThemeRoller theme. This may compliment the jQuery Mobile theme, or it may be totally different.
+
+> Include in the page(s) the following. Interaction/widget/effect groups are taken from the jQuery UI website:
+
+1. ONE INTERACTION: Draggable, droppable, resizeable, selectable, sortable. You may use more than one interaction in your site.
+
+2. ONE WIDGET. You may NOT use: Buttons (and other form elements listed under Buttons), Datepicker, Tooltip. You may use more than one widget in your site. 
+
+3. ONE EFFECT. You may NOT use: Add class, remove class, show, hide. I recommend investigating Toggle but you may choose any of the other remaining effects. You may use more than one effect in your site. 
+
+4. FOR EACH INTERACTION/WIDGET/EFFECT: you will create something new, not demonstrated on the demo page. I want you to do what I did in the video. Using the tooltip, I combined "custom animation" with "track the mouse". It looked ugly, but it was not code that I copied and pasted in whole from the website either. I am looking for a demonstration of understanding that you can read the documentation and write good quality jQuery to form your own interactions/widgets/effects on your site. You should combine at least two aspects in each example. You are welcome to combine more.
+
+> NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.

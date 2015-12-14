@@ -38,16 +38,17 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 
 > NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
 
-##My week 12-13 jQuery Mobile assignment is located at this/these URL(s): assign3.arangilmorephotography.com
-◦Grid system is located on this/these page(s): index.html#test
-◦Button and/or icon is located here: #home, line 87
-◦My two widgets are Navbar and RadioButton Horizontal Group and they are located on these pages: index.html#home/#test (in the header) line 17&92 for data-role="navbar", line 72 for the RadioButton
-◦My custom theme is applied on this page index.html line number 6 & 7 
-◦The form is located here: #home (lines 44-87) and the modifications I used are Select mini Inline (line 61),  Radio buttons mini horizontal controlgroup (line 72), textarea (line 39), and text (line 58)
-◦The jQuery Mobile events I used on my site include: taphold and swipe They are located here: taphold=index.html#home line 54 assign4.js lines 29-33, swipe=index.html#test line 105 and assign4.js lines 35-39
+##My week 12-13 jQuery Mobile assignment is located at this/these URL(s): assign4.arangilmorephotography.com
+
+* Grid system is located on this/these page(s): index.html#test
+* Button and/or icon is located here: #home, line 87
+* My two widgets are Navbar and RadioButton Horizontal Group and they are located on these pages: index.html#home/#test (in the header) line 17&92 for data-role="navbar", line 72 for the RadioButton
+* My custom theme is applied on this page index.html line number 6 & 7 
+* The form is located here: #home (lines 44-87) and the modifications I used are Select mini Inline (line 61),  Radio buttons mini horizontal controlgroup (line 72), textarea (line 39), and text (line 58)
+* The jQuery Mobile events I used on my site include: taphold and swipe They are located here: taphold=index.html#home line 54 assign4.js lines 29-33, swipe=index.html#test line 105 and assign4.js lines 35-39
 
 ##My week 14 jQuery UI assignment is located at this/these URL(s): Assign4_JQueryUI.html
-• ◦My custom theme is applied on this page Assign4_JQueryUI.html line number8 
-◦My interaction is Draggable/Droppable applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=46-60, JS=5-17 (HTML and JS please!)
-◦My widget is animate applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=P elements lines31-42 JS=line 20 and the DIV on 46, JS=15 (HTML and JS please!) 
-◦My effect is tabs applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=line 24-43, JS=line 20 (HTML and JS please!)
+* My custom theme is applied on this page Assign4_JQueryUI.html line number8 
+* My interaction is Draggable/Droppable applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=46-60, JS=5-17 (HTML and JS please!)
+* My widget is animate applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=P elements lines31-42 JS=line 20 and the DIV on 46, JS=15 (HTML and JS please!) 
+* My effect is tabs applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=line 24-43, JS=line 20 (HTML and JS please!)

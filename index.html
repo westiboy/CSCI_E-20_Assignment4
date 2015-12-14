@@ -22,14 +22,13 @@
 			</ul>
 		</nav>
 		</header>
-		<form action="assign2_flashcard.html" method="POST">
 			<fieldset>
-				<legend>Search Flashcards</legend>
+				<label>Search Flashcards</label>
 				<label for="searchflashcards">Search existing flashcards for word:</label>
 				<input type="search" id="searchflashcards" name="searchflashcards">
 		    </fieldset>
 		    <fieldset id="flashdata">
-		    	<legend>Flashcard Data</legend>
+		    	<label>Flashcard Data</label>
 		    	<label for="item">Word or phrase</label>
 		    	<input type="text" id="item" name="item" placeholder="Input Types">
 		    	
@@ -42,9 +41,8 @@
 		    	<label for="itemurl">URL of page describing the term and its use definition</label>
 		    	<input type="url" id="itemurl" name="itemurl" placeholder="http://www.w3schools.com/html/html_form_input_types.asp">
 		    </fieldset>
-		    <form>
 		    	<div class="ui-field-contain">
-			    	<legend>School and class data (for later reference)</legend>
+			    	<label>School and class data (for later reference)</label>
 			    	<label for="school">School name (e.g. Harvard Extension School)</label>
 			    	<select name="school" id="school">
 			    		<option checked>Select a school from the list:</option>
@@ -69,26 +67,22 @@
 		    	<label for="classnumber">Class number (e.g. 20)</label>
 		    	<input type="text" id="classnumber" name="classnumber">
 		    <div>
-		    	<form>
-			    	<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-				    	<legend>Semester:</legend>
-				    	<input id="fall-semester" name="semester" value="on" type="radio">
-				    	<label for="fall-semester">Fall</label>
-				    	<input id="winter-semester" name="semester" value="off" type="radio">
-				    	<label for="winter-semester">Winter</label>
-				    	<input id="spring-semester" name="semester" value="off" type="radio">
-				    	<label for="spring-semester">Spring</label>
-				    	<input id="summer-semester" name="semester" value="off" type="radio">
-				    	<label for="summer-semester">Summer</label>
-				    </fieldset>
-			    </form>
+		    	<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+			    	<label>Semester:</label>
+			    	<input id="fall-semester" name="semester" value="on" type="radio">
+			    	<label for="fall-semester">Fall</label>
+			    	<input id="winter-semester" name="semester" value="off" type="radio">
+			    	<label for="winter-semester">Winter</label>
+			    	<input id="spring-semester" name="semester" value="off" type="radio">
+			    	<label for="spring-semester">Spring</label>
+			    	<input id="summer-semester" name="semester" value="off" type="radio">
+			    	<label for="summer-semester">Summer</label>
+			    </fieldset>
 		    </div>
 		    	<label for="year">Year</label>
 		    	<input type="number" id="year" name="year" max="9999" min="1900" value="2015">
-		    </form>
 		    	<label class="ui-hidden-accessible" for="submit"></label>
 		    	<button id="submit" name="submit" value="Submit Flashcard" class="ui-btn ui-corner-all">Submit</button>
-		</form>
 	</section>
 	<section data-role="page" id="test" data-theme="c">
 		<header data-role="header">
@@ -105,19 +99,19 @@
 				<div class="ui-grid-a">
 				
 					<div id="item_element" class="ui-block-a ui-corner-all">
-			    		<legend for="item">Word or phrase</legend>
+			    		<label for="item">Word or phrase</label>
 				    	<div id="item" class="ui-bar ui-bar-c ui-corner-all">Input Types</div>
 			    	</div>
 
 					<div id="relation_element" class="ui-block-b ui-corner-all">
-				    	<legend for="relation">Personal relation or use of said term or action</legend>
+				    	<label for="relation">Personal relation or use of said term or action</label>
 				    	<div id="relation" class="ui-bar ui-bar-c ui-corner-all">In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.
 				    	</div>
 			    	</div>
 				</div>
 
 				<fieldset id="definition_element" class="ui-grid-c">
-				    <legend for="definition">Personal written definition (click/tap hold to select</legend>
+				    <label for="definition">Personal written definition (click/tap hold to select</label>
 					<div class="ui-block-a ui-corner-all ui-bar-c">
 						<input type="button" name="definition1" value="Describes specified type of input in an HTML form">
 						<label for="definition1" class="ui-hidden-accessible">Describes specified type of input in an HTML form</label>
@@ -139,38 +133,6 @@
 				<div>
 			    	<p><a id="itemurl" href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">http://www.w3schools.com/html/html_form_input_types.asp</a></p>
 				</div>
-	</section>
-	<section data-role="page" id="flashcard" data-theme="c">
-		<header data-role="header">
-			<h1>HTML5 Flashcards</h1>
-		<nav data-role="navbar">
-			<ul>
-				<li><a href="#home">Flashcard Input Form</a></li>
-				<li><a href="/Assign4_JQueryUI.html" target="_self">Flashcard Example</a></li>
-				<li><a href="#test">Flashcard Test</a></li>
-			</ul>
-		</nav>
-		</header>
-    	<h1>Flashcard Data</h1>
-			<div class="boxwrapper">
-				<div id="leftbox" class="box">
-		    		<legend for="item">Word or phrase</legend>
-			    	<p id="item">Input Types</p>
-		    	</div>
-
-				<div id="rightbox" class="box">
-			    	<legend for="definition">Personal written definition</legend>
-			    	<p id="definition"><span class="floatleft">D</span>escribes specified type of input in an HTML form</p>
-		    	</div>
-
-				<div id="centerbox" class="box">
-			    	<legend for="relation">Personal relation or use of said term or action</legend>
-			    	<p id="relation"><span class="floatleft">I</span>n a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.</p>
-		    	</div>
-			</div>
-			<div>
-		    	<p><a id="itemurl" href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">http://www.w3schools.com/html/html_form_input_types.asp</a></p>
-			</div>
 	</section>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>

@@ -1,3 +1,6 @@
+label {
+	border: solid 1px black;
+}
 #home, #flashcard, #test{
 	padding: 0 1%;
 	width: 98%;
@@ -7,25 +10,11 @@
 }
 
 @media all and (max-width: 25em) {
-	.ui-block-a,
-	.ui-block-b,
-	.ui-block-c,
-	.ui-block-d {
+	.my-breakpoint .ui-block-a,
+	.my-breakpoint .ui-block-b,
+	.my-breakpoint .ui-block-c,
+	.my-breakpoint .ui-block-d, {
 		width: 100%;
+		float: none;
 	}
-}
-#definition1, #definition2, #definition3, #definition4 {
-	width: 100px;
-	height: 100px;
-	padding: 0.5em;
-	float: left;
-	margin: 10px;
-}
-
-#definition_element, #cards {
-	width: 150px;
-	height: 150px;
-	padding: 0.5em;
-	float: left;
-	margin: 10px;
 }

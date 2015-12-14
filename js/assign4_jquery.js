@@ -10,7 +10,9 @@ $(function(){
 
 	$( "#answerfield" ).droppable({
 		drop: function( event, ui ) {
-	        $( this ).animate({backgroundColor: "green"},1500); //addClass( "droppedTRUE");
+			varVAL = $( this ).val();
+			console.log(varVAL);
+			$( this ).animate({backgroundColor: "green"},1500); //addClass( "droppedTRUE");
     	}
 	});
 

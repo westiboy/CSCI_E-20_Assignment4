@@ -22,25 +22,28 @@
 		</nav>
 		</header>
 	    	<h1>Flashcard Data</h1>
-				<div id="cards" class="ui-grid-b">
+				<div id="cards">
+					<ul>
+						<li><a href="#card_display_element">Word or phrase</a></li>
+						<li><a href="#relation_display_element">Personal relation or use of said term or action</a></li>
+						<li><a href="#definition_display_element">Definition</a></li>
+					</ul>
 					<div id="card_display_element" class="ui-block-a ui-corner-all">
-			    		<h4>Word or phrase</h4>
 				    	<p id="card_display" class="ui-bar ui-bar-c ui-corner-all">Input Types</p>
 			    	</div>
 
 					<div id="relation_display_element" class="ui-block-b ui-corner-all">
-				    	<h4>Personal relation or use of said term or action</h4>
 				    	<p id="relation_display" class="ui-bar ui-bar-c ui-corner-all">In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.
 				    	</p>
 			    	</div>
 
 			    	<div id="definition_display_element" class="ui-block-c ui-corner-all ui-widget-header">
-				    	<h4>Drop definition here</h4>
-				    	<p id="definition_display" class="ui-bar ui-bar-c ui-corner-all"></p>
+				    	<p id="definition_display" class="ui-bar ui-bar-c ui-corner-all">Describes specified type of input in an HTML form</p>
 			    	</div>
 				</div>
 
 			    <h4>Personal written definition (drag and drop the right answer)</h4>
+			    <div id="answerfield" class="ui-bar ui-bar-c ui-corner-all"></div>
 				<div class="ui-grid-c">
 					<div id="definition1" class="ui-block-a ui-corner-all ui-bar-c ui-widget-content">
 						<p>Describes specified type of input in an HTML form</p>

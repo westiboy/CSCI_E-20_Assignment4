@@ -44,12 +44,15 @@ $(function(){
 	$( "#definition3" ).draggable();
 	$( "#definition4" ).draggable();
 
-	$( "#definition_display_element" ).droppable({
+	$( "#answerfield" ).droppable({
 		drop: function( event, ui ) {
 	        $( this )
 					.addClass( "droppedTRUE" );
     	}
 	});
+
+	//Jquery Widget = Tabs
+	$( "#cards" ).tabs();
 
 
 }); //end ready

@@ -8,6 +8,16 @@ label {
 .ui-bar {
 	min-height: 99px;
 }
+#schimg {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 10px;
+}
+.tap {
+	width: 800px;
+	height: 800px;
+	padding: 10px;
+}
 
 @media all and (max-width: 25em) {
 	.my-breakpoint .ui-block-a,

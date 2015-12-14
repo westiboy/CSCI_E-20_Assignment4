@@ -14,7 +14,7 @@ Create a 2-3 page website using jQuery Mobile. Use the jQuery Mobile definition 
 
 * [X] Create a form for your site that contains at least 4 distinct field types. (Example: a group of radio buttons, a text field, a select list, etc.) The form does not have to submit. Use proper HTML5 coding and field types for creating the form, as covered in previous lectures. For at least two of the field types, include a jQuery Mobile modification, as demonstrated in the lecture (horizontal display, mini version, etc) or some other modification you find in the documentation.
 
-* [] Apply at least two of the jQuery Mobile touch events to your page(s) to make something happen. jQuery Mobile events are listed at http://api.jquerymobile.com/category/events/ (Links to an external site.) Some were covered in lecture, and you may use these, or you may use other events listed in the docs.
+* [X] Apply at least two of the jQuery Mobile touch events to your page(s) to make something happen. jQuery Mobile events are listed at http://api.jquerymobile.com/category/events/ (Links to an external site.) Some were covered in lecture, and you may use these, or you may use other events listed in the docs.
 
 # Part 2: jQuery UI (33% of grade) -- added November 30
 

@@ -38,5 +38,18 @@ $(function(){
 		$( event.target ).removeClass("ui-bar-c").addClass("ui-bar-a");
 	}
 
+	//JQuery Interaction = Draggable/Droppable
+	$( "#definition1" ).draggable();
+	$( "#definition2" ).draggable();
+	$( "#definition3" ).draggable();
+	$( "#definition4" ).draggable();
+
+	$( "#definition_display_element" ).droppable({
+		drop: function( event, ui ) {
+	        $( this )
+					.addClass( "droppedTRUE" );
+    	}
+	});
+
 
 }); //end ready

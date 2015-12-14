@@ -5,20 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSCI E-20 Assignment 3</title>
 	<link rel="stylesheet" href="themes/Assign4.min.css" />
-	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link href="css/assign4.css" media="all" rel="Stylesheet" type="text/css" /> 
-	<script>
-		$( "#draggable" ).draggable();
-		$( "#definition_element" ).droppable({
-			drop: function( event, ui ) {
-		        $( this )
-					.addClass( "ui-state-highlight" )
-		        	.find( "p" )
-			            .html( "Dropped!" );
-	    	}
-    	});
-	</script>
 </head>
 
 <body>
@@ -73,7 +61,10 @@
 				</div>
 
 	</section>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="js/assign4.js"></script>
+
 </body>
 </html>

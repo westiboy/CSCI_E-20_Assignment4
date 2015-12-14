@@ -13,12 +13,6 @@ label {
 	max-height: 200px;
 	padding: 10px;
 }
-.tap {
-	width: 800px;
-	height: 800px;
-	padding: 10px;
-}
-
 @media all and (max-width: 25em) {
 	.my-breakpoint .ui-block-a,
 	.my-breakpoint .ui-block-b,
@@ -27,4 +21,10 @@ label {
 		width: 100%;
 		float: none;
 	}
+}
+.droppedTRUE {
+	background-color: green;
+}
+.droppedFALSE {
+	background-color: red;
 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSCI E-20 Assignment 3</title>
+	<link rel="stylesheet" href="themes/Assign4.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link href="css/assign4.css" media="all" rel="Stylesheet" type="text/css" /> 
+	<script>
+		$( "#draggable" ).draggable();
+		$( "#definition_element" ).droppable({
+			drop: function( event, ui ) {
+		        $( this )
+					.addClass( "ui-state-highlight" )
+		        	.find( "p" )
+			            .html( "Dropped!" );
+	    	}
+    	});
+	</script>
+</head>
+
+<body>
+	<section data-role="page" id="flashcard" data-theme="c">
+		<header data-role="header">
+			<h1>HTML5 Flashcards</h1>
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="/index.html#home">Flashcard Input Form</a></li>
+				<li><a href="/Assign4_JQueryUI.html" target="_self" class="ui-btn-active ui-state-persist">Flashcard Example</a></li>
+				<li><a href="/index.html#test">Flashcard Test</a></li>
+			</ul>
+		</nav>
+		</header>
+	    	<h1>Flashcard Data</h1>
+				<div class="ui-grid-b">
+					<div id="item_element" class="ui-block-a ui-corner-all">
+			    		<legend for="item">Word or phrase</legend>
+				    	<div id="item" class="ui-bar ui-bar-c ui-corner-all">Input Types</div>
+			    	</div>
+
+					<div id="relation_element" class="ui-block-b ui-corner-all">
+				    	<legend for="relation">Personal relation or use of said term or action</legend>
+				    	<div id="relation" class="ui-bar ui-bar-c ui-corner-all">In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.
+				    	</div>
+			    	</div>
+
+			    	<div id="definition_element" class="ui-block-c ui-corner-all ui-widget-header">
+				    	<legend for="definition">Drop definition here</legend>
+				    	<div id="definition" class="ui-bar ui-bar-c ui-corner-all">
+
+				    	</div>
+			    	</div>
+				</div>
+
+				<fieldset id="definitions_element" class="ui-grid-c">
+				    <legend for="definitions_element">Personal written definition (drag and drop the right answer)</legend>
+					<div id="definition1" class="ui-block-a ui-corner-all ui-bar-c ui-widget-content">
+						<p name="definition1">Describes specified type of input in an HTML form"</p>
+						<label for="definition1" class="ui-hidden-accessible">Describes specified type of input in an HTML form</label>
+					</div>
+					<div id="definition2" class="ui-block-b ui-corner-all ui-bar-c ui-widget-content">
+						<p name="definition2">Completely wrong answer, that should be obvious, but..."</p>
+			    		<label for="definition2" class="ui-hidden-accessible">Completely wrong answer, that should be obvious, but...</label>
+					</div>
+					<div id="definition3" class="ui-block-c ui-corner-all ui-bar-c ui-widget-content">
+						<p name="definition3">A third, less correct, but not insane answer"</p>
+						<label for="definition3" class="ui-hidden-accessible">A third, less correct, but not insane answer</label>
+					</div>
+					<div id="definition4" class="ui-block-d ui-corner-all ui-bar-c ui-widget-content">
+						<p name="definition4">Some final answer that could be legit, but isn't"</p>
+			    		<label for="definition4" class="ui-hidden-accessible">Some final answer that could be legit, but isn't</label>
+					</div>
+			    </fieldset>
+
+				<div>
+			    	<p><a id="itemurl" href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">http://www.w3schools.com/html/html_form_input_types.asp</a></p>
+				</div>
+	</section>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

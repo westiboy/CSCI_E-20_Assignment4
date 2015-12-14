@@ -23,12 +23,12 @@
 		</nav>
 		</header>
 			<fieldset>
-				<label>Search Flashcards</label>
+				<h3>Search Flashcards</h3>
 				<label for="searchflashcards">Search existing flashcards for word:</label>
 				<input type="search" id="searchflashcards" name="searchflashcards">
 		    </fieldset>
 		    <fieldset id="flashdata">
-		    	<label>Flashcard Data</label>
+		    	<h3>Flashcard Data</h3>
 		    	<label for="card_entry">Word or phrase</label>
 		    	<input type="text" id="card_entry" name="card_entry" placeholder="Input Types">
 		    	
@@ -42,7 +42,7 @@
 		    	<input type="url" id="card_entry_url" name="card_entry_url" placeholder="http://www.w3schools.com/html/html_form_input_types.asp">
 		    </fieldset>
 		    	<div class="ui-field-contain">
-			    	<label>School and class data (for later reference)</label>
+			    	<h3>School and class data (for later reference)</h3>
 			    	<label for="school">School name (e.g. Harvard Extension School)</label>
 			    	<select name="school" id="school">
 			    		<option>Select a school from the list:</option>
@@ -99,34 +99,30 @@
 				<div class="ui-grid-a">
 				
 					<div id="item_element" class="ui-block-a ui-corner-all">
-			    		<label for="card_test">Word or phrase</label>
-				    	<div id="card_test" name="card_test" class="ui-bar ui-bar-c ui-corner-all">Input Types</div>
+			    		<h4>Word or phrase</h4>
+				    	<p id="card_test" class="ui-bar ui-bar-c ui-corner-all">Input Types</p>
 			    	</div>
 
 					<div id="relation_element" class="ui-block-b ui-corner-all">
-				    	<label for="relation_test">Personal relation or use of said term or action</label>
-				    	<div id="relation_test" name="relation_test" class="ui-bar ui-bar-c ui-corner-all">In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.
-				    	</div>
+				    	<h4>Personal relation or use of said term or action</h4>
+				    	<p id="relation_test" class="ui-bar ui-bar-c ui-corner-all">In a form requiring a phone number, you can define the type as 'tel' to specify it as a telephone number. This can be used by browsers on a smartphone for example, which are limited to the phone keypad instead of the full keyboard.
+				    	</p>
 			    	</div>
 				</div>
 
+			    <h4>Personal written definition (click/tap to select)</h4>
 				<fieldset id="definition_test" name="definition_test" class="ui-grid-c">
-				    <label for="definition_test">Personal written definition (click/tap hold to select</label>
 					<div class="ui-block-a ui-corner-all ui-bar-c">
 						<input type="button" name="definition1" value="Describes specified type of input in an HTML form">
-						<label for="definition1" class="ui-hidden-accessible">Describes specified type of input in an HTML form</label>
 					</div>
 					<div class="ui-block-b ui-corner-all ui-bar-c">
 						<input type="button" name="definition2" value="Completely wrong answer, that should be obvious, but...">
-			    		<label for="definition2" class="ui-hidden-accessible">Completely wrong answer, that should be obvious, but...</label>
 					</div>
 					<div class="ui-block-c ui-corner-all ui-bar-c">
 						<input type="button" name="definition3" value="A third, less correct, but not insane answer">
-						<label for="definition3" class="ui-hidden-accessible">A third, less correct, but not insane answer</label>
 					</div>
 					<div class="ui-block-d ui-corner-all ui-bar-c">
 						<input type="button" name="definition4" value="Some final answer that could be legit, but isn't">
-			    		<label for="definition4" class="ui-hidden-accessible">Some final answer that could be legit, but isn't</label>
 					</div>
 			    </fieldset>
 

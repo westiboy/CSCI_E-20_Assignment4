@@ -17,7 +17,7 @@ $(function(){
 	});
 
 	//Jquery Widget = Tabs and animate
-	$( "#cards" ).tabs($( "p" ).animate({backgroundColor: "blue"},2000));
+	$( "#cards" ).tabs($( "#cards p" ).animate({backgroundColor: "blue"},2000));
 	//end tabs function
 
 }); //end ready

@@ -28,27 +28,26 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 
 > Include in the page(s) the following. Interaction/widget/effect groups are taken from the jQuery UI website:
 
-1. [] ONE INTERACTION: Draggable, droppable, resizeable, selectable, sortable. You may use more than one interaction in your site.
+1. [X] ONE INTERACTION: Draggable, droppable, resizeable, selectable, sortable. You may use more than one interaction in your site.
 
-2. [] ONE WIDGET. You may NOT use: Buttons (and other form elements listed under Buttons), Datepicker, Tooltip. You may use more than one widget in your site. 
+2. [X] ONE WIDGET. You may NOT use: Buttons (and other form elements listed under Buttons), Datepicker, Tooltip. You may use more than one widget in your site. 
 
-3. [] ONE EFFECT. You may NOT use: Add class, remove class, show, hide. I recommend investigating Toggle but you may choose any of the other remaining effects. You may use more than one effect in your site. 
+3. [X] ONE EFFECT. You may NOT use: Add class, remove class, show, hide. I recommend investigating Toggle but you may choose any of the other remaining effects. You may use more than one effect in your site. 
 
-4. [] FOR EACH INTERACTION/WIDGET/EFFECT: you will create something new, not demonstrated on the demo page. I want you to do what I did in the video. Using the tooltip, I combined "custom animation" with "track the mouse". It looked ugly, but it was not code that I copied and pasted in whole from the website either. I am looking for a demonstration of understanding that you can read the documentation and write good quality jQuery to form your own interactions/widgets/effects on your site. You should combine at least two aspects in each example. You are welcome to combine more.
+4. [X] FOR EACH INTERACTION/WIDGET/EFFECT: you will create something new, not demonstrated on the demo page. I want you to do what I did in the video. Using the tooltip, I combined "custom animation" with "track the mouse". It looked ugly, but it was not code that I copied and pasted in whole from the website either. I am looking for a demonstration of understanding that you can read the documentation and write good quality jQuery to form your own interactions/widgets/effects on your site. You should combine at least two aspects in each example. You are welcome to combine more.
 
 > NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
 
 ##My week 12-13 jQuery Mobile assignment is located at this/these URL(s): assign3.arangilmorephotography.com
-◦Grid system is located on this/these page(s): ____
-◦Button and/or icon is located here: #home, line FILL IN
-◦My two widgets are Navbar and RadioButton and they are located on these pages: #home/#test/#flashcard (in the header)
-◦My custom theme is applied on this page ___ line number ___ 
-◦The form is located here: #home and the modifications I used are Select mini Inline,  Radio buttons mini horizontal controlgroup., textarea, and text HTML line numbers ____
-◦The jQuery Mobile events I used on my site include: ____ and ____ They are located here: ____
+◦Grid system is located on this/these page(s): index.html#test
+◦Button and/or icon is located here: #home, line 87
+◦My two widgets are Navbar and RadioButton Horizontal Group and they are located on these pages: index.html#home/#test (in the header) line 17&92 for data-role="navbar", line 72 for the RadioButton
+◦My custom theme is applied on this page index.html line number 6 & 7 
+◦The form is located here: #home (lines 44-87) and the modifications I used are Select mini Inline (line 61),  Radio buttons mini horizontal controlgroup (line 72), textarea (line 39), and text (line 58)
+◦The jQuery Mobile events I used on my site include: taphold and swipe They are located here: taphold=index.html#home line 54 assign4.js lines 29-33, swipe=index.html#test line 105 and assign4.js lines 35-39
 
-##My week 14 jQuery UI assignment is located at this/these URL(s): ____
-• ◦My custom theme is applied on this page ___ line number(s) ___ 
-◦My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
-◦My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!) 
-◦My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
-
+##My week 14 jQuery UI assignment is located at this/these URL(s): Assign4_JQueryUI.html
+• ◦My custom theme is applied on this page Assign4_JQueryUI.html line number8 
+◦My interaction is Draggable/Droppable applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=46-60, JS=5-17 (HTML and JS please!)
+◦My widget is animate applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=P elements lines31-42 JS=line 20 and the DIV on 46, JS=15 (HTML and JS please!) 
+◦My effect is tabs applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=line 24-43, JS=line 20 (HTML and JS please!)

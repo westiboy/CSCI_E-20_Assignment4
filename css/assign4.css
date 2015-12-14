@@ -13,11 +13,15 @@ label {
 	max-height: 200px;
 	padding: 10px;
 }
-@media all and (max-width: 25em) {
-	.my-breakpoint .ui-block-a,
-	.my-breakpoint .ui-block-b,
-	.my-breakpoint .ui-block-c,
-	.my-breakpoint .ui-block-d, {
+@media all and (max-width: 30em) {
+	.ui-grid-a .ui-block-a,
+	.ui-grid-a .ui-block-b {
+		width: 100%;
+	}
+	.ui-grid-c .ui-block-a,
+	.ui-grid-c .ui-block-b,
+	.ui-grid-c .ui-block-c,
+	.ui-grid-c .ui-block-d {
 		width: 100%;
 	}
 }

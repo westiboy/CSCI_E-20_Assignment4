@@ -19,7 +19,6 @@ label {
 	.my-breakpoint .ui-block-c,
 	.my-breakpoint .ui-block-d, {
 		width: 100%;
-		float: none;
 	}
 }
 .droppedTRUE {

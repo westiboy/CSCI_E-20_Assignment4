@@ -38,7 +38,8 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 
 > NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
 
-##My week 12-13 jQuery Mobile assignment is located at this/these URL(s): assign4.arangilmorephotography.com
+##My week 12-13 jQuery Mobile assignment is located at this URL(s):
+* assign4.arangilmorephotography.com
 
 * Grid system is located on this/these page(s): index.html#test
 * Button and/or icon is located here: #home, line 87
@@ -49,6 +50,6 @@ Create a separate document or documents using jQuery UI and demonstrating the re
 
 ##My week 14 jQuery UI assignment is located at this/these URL(s): Assign4_JQueryUI.html
 * My custom theme is applied on this page Assign4_JQueryUI.html line number8 
-* My interaction is Draggable/Droppable applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=46-60, JS=5-17 (HTML and JS please!)
-* My widget is animate applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=P elements lines31-42 JS=line 20 and the DIV on 46, JS=15 (HTML and JS please!) 
-* My effect is tabs applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=line 24-43, JS=line 20 (HTML and JS please!)
+* My interaction is Draggable/Droppable with an added animation, applied on this page Assign4_JQueryUI.html line number(s) HTML=46-60, and assign4_jquery.js line number(s) JS=5-17
+* My widget is tabs & animate applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=P elements lines31-42 JS=line 20 and the DIV on 46, JS=15
+* My effect is toggle("highlight") & animate, applied on this page Assign4_JQueryUI.html & assign4_jquery.js line number(s) HTML=line 24-43, JS=line 20
